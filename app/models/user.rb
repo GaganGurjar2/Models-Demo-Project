@@ -8,3 +8,4 @@ class User < ApplicationRecord
   validates :user_type, inclusion: { in: ['student', 'teacher'],massage: "Invalid Type," }
   
 end
+                                                                                                                                                         
